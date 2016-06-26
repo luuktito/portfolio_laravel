@@ -17,6 +17,7 @@
 //    return view('welcome', compact('people'));
 //});
 
+Route::get('/', 'PagesController@home');
 Route::get('home', 'PagesController@home');
 Route::get('about', 'PagesController@about');
 Route::get('cv', 'PagesController@cv');
@@ -24,6 +25,7 @@ Route::get('projects', 'PagesController@projects');
 Route::get('school', 'PagesController@school');
 Route::get('school2', 'PagesController@school2');
 Route::get('school3', 'PagesController@school3');
+Route::get('school4', 'PagesController@school4');
 Route::get('contact', 'PagesController@contact');
 
 //Route::get('about', function () {

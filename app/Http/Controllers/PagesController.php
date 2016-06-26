@@ -26,6 +26,9 @@ class PagesController extends Controller
     public function school3(){
         return view('pages.school3');
     }
+    public function school4(){
+        return view('pages.school4');
+    }
     public function contact(){
         return view('pages.contact');
     }

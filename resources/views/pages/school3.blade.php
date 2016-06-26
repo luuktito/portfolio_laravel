@@ -3,7 +3,7 @@
     <!-- Jumbotron -->
     <div class="jumbotron" id="header">
         <h1>School</h1>
-        <p class="lead">Op deze pagina kan je mijn persoonlijk SWOT analyse en leerdoel van periode 4 vinden.</p>
+        <p class="lead">Op deze pagina kan je mijn persoonlijk SWOT analyse en leerdoel van periode 7 vinden.</p>
         <hr>
         <img src="img/SWOT2.png" alt="cv" id="swot">
         <p><small>Mijn leerdoel voor het vak SLC van periode 7, tweede jaar, was om de python te leren door middel van het maken van de python cursus op Codecademy en door vervolgens een kleine applicatie te maken met de stof die ik heb geleerd.</small></p>

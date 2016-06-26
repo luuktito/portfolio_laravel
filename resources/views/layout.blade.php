@@ -6,17 +6,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Home | Luuk Tito</title>
+    <title>{{ ucfirst(trans(Request::path())) }} | Luuk Tito</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="favicon.ico"/>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <style>
-        body {
-            padding-top: 50px;
-            padding-bottom: 20px;
-        }
-    </style>
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
 
@@ -25,7 +19,6 @@
 <body>
 
 <div class="container">
-
     <div class="masthead">
         <h3 class="text-muted">Portfolio - Luuk Tito - Informatica Jaar 2</h3>
         <div role="navigation">
@@ -44,6 +37,7 @@
                     <li class="{{ Request::path() ==  'school' ? 'active' : ''  }}"><a href="{{ url('school') }}">Periode 3</a></li>
                     <li class="{{ Request::path() ==  'school2' ? 'active' : ''  }}"><a href="{{ url('school2') }}">Periode 4</a></li>
                     <li class="{{ Request::path() ==  'school3' ? 'active' : ''  }}"><a href="{{ url('school3') }}">Periode 7</a></li>
+                    <li class="{{ Request::path() ==  'school4' ? 'active' : ''  }}"><a href="{{ url('school4') }}">Periode 8</a></li>
                 </ul>
             </div>
         @endif
